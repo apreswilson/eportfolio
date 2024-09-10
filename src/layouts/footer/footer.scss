@@ -1,0 +1,111 @@
+@use "../../index.scss" as global;
+
+footer {
+   width: global.$default-content-width;
+   padding: global.$normal-gap 0;
+   border-top: global.$default-border;
+   margin: auto;
+   display: grid;
+   @extend %transition;
+   grid-template-columns: repeat(3, 1fr);
+
+   .grid-section {
+      display: flex;
+      gap: global.$normal-gap;
+      flex-direction: column;
+
+      h1 {
+         font-size: global.$large-font-size;
+         margin: 0;
+      }
+   }
+
+   .name-details {
+      text-align: center;
+      justify-content: center;
+   }
+
+   .pages {
+      align-items: center;
+
+      h1 {
+         width: max-content;
+         text-decoration: underline;
+      }
+   }
+
+   .pages>ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      text-align: left;
+      flex-direction: column;
+      gap: global.$normal-gap;
+
+      li {
+         cursor: pointer;
+         width: 7rem;
+         @extend %transition;
+      }
+
+      li:hover {
+         color: global.$default-blue;
+         text-decoration: underline;
+      }
+   }
+
+   .socials {
+      display: flex;
+      align-items: center;
+
+      h1 {
+         width: 9rem;
+         text-align: left;
+         text-decoration: underline;
+      }
+
+      .social-links {
+         display: flex;
+         gap: global.$extra-large-gap;
+      }
+
+      .social-links>a {
+         text-decoration: none;
+         color: global.$default-black;
+      }
+
+      .social-links>a>svg {
+         font-size: global.$extra-large-font-size;
+         cursor: pointer;
+         @extend %transition;
+      }
+
+      .social-links>a>svg:hover {
+         color: global.$default-blue;
+      }
+   }
+}
+
+@media screen and (max-width: 750px) {
+   footer {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   footer {
+      grid-template-columns: auto;
+      gap: global.$extra-large-gap;
+
+      .grid-section {
+         width: 95%;
+         margin: auto;
+      }
+
+      .pages>ul,
+      .socials>h1 {
+         text-align: center;
+      }
+   }
+}
