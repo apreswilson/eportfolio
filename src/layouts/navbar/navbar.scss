@@ -8,6 +8,7 @@ nav {
    margin: auto;
    border-bottom: global.$default-border;
    justify-content: space-between;
+   letter-spacing: global.$default-letter-spacing;
    @extend %transition;
 
    h1 {
@@ -59,12 +60,15 @@ nav {
    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
    nav {
       background-color: global.$default-white;
+      position: fixed;
+      top: 0;
 
       label {
          display: block;
+         z-index: 1;
       }
 
       ul {
@@ -89,9 +93,9 @@ nav {
          width: 2.5rem;
       }
 
-
       #check:checked~ul {
          right: 0;
       }
+
    }
 }

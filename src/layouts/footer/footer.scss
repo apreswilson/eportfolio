@@ -5,9 +5,10 @@ footer {
    padding: global.$normal-gap 0;
    border-top: global.$default-border;
    margin: auto;
+   letter-spacing: global.$default-letter-spacing;
    display: grid;
-   @extend %transition;
    grid-template-columns: repeat(3, 1fr);
+   @extend %transition;
 
    .grid-section {
       display: flex;
