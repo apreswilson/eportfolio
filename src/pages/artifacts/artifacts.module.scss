@@ -1,0 +1,12 @@
+@use "../../index.scss" as global;
+
+.artifacts_main {
+   h1 {
+      text-decoration: underline;
+   }
+
+   p {
+      text-indent: 2rem;
+      line-height: 2rem;
+   }
+}

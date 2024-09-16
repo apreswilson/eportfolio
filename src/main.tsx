@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import PageLayout from './layouts/page/page-layout.tsx';
 import App from './App.tsx';
 import './index.scss';
+import Artifacts from './pages/artifacts/artifacts.tsx';
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,14 @@ const router = createBrowserRouter([
     element: (
       <PageLayout>
         <App />
+      </PageLayout>
+    )
+  },
+  {
+    path: "/artifacts",
+    element: (
+      <PageLayout>
+        <Artifacts />
       </PageLayout>
     )
   }
