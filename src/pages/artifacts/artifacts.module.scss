@@ -9,4 +9,16 @@
       text-indent: 2rem;
       line-height: 2rem;
    }
+
+   img {
+      width: 80%;
+      display: block;
+      margin: auto;
+   }
+}
+
+@media screen and (max-width: 750px) {
+   .artifacts_main>img {
+      width: 100%;
+   }
 }
