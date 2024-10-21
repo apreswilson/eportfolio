@@ -44,15 +44,22 @@ footer {
       flex-direction: column;
       gap: global.$normal-gap;
 
-      li {
+      li,
+      a {
          cursor: pointer;
          width: 7rem;
          @extend %transition;
       }
 
-      li:hover {
+      li:hover,
+      a:hover {
          color: global.$default-blue;
          text-decoration: underline;
+      }
+
+      li>a {
+         color: global.$default-black;
+         text-decoration: none;
       }
    }
 

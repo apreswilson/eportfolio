@@ -103,6 +103,26 @@ export default function Artifacts() {
          <p>
             Algorithmic systems and AI have been on a monstrous rise in popularity across the recent years, however this does come with some drawbacks. For one, it has been difficult for adequate legislation to be passed to establish guidelines or principles for developers of these systems to adhere to. However, there are solutions that are on the horizon, and a growing number of guidelines from reputable sources and official legislation is being passed around the country to help address the issue presented by algorithmic systems being potentially irresponsible in their decision making. As time continues, a greater number of resources and guidelines will be put in place either through literature or legality for developers to follow when it comes to making responsible algorithmic systems that make moral and logical decisions.
          </p>
+         <h1>Event Report 2</h1>
+         <p>
+            For this event report, I once again decided to attend a JSConf event. This one is discussing what new features are coming to JavaScript. The speaker is Nicolo Ribaudo, an employee at Igalia and TC39 delegate, created the Babel compiler and has worked on several proposals made to JavaScript in the past. This conference was held in Budapest from June 26th – 28th 2024. This essay will go over summarizing the different features that could be coming to JavaScript discussed by Nicolo.
+         </p>
+         <p>
+            Before fully delving into the new features, Nicolo discusses how standard bodies are decided on the web. He uses an example of the various emojis of a hamburger used by different companies. A standard body would mean that all companies use the same burger emoji. There are various organizations that create these standards such as WHATWG, W3C, IETF, ECMA and Unicode. Nicolo then goes on to discuss what TC39 is in more depth. Essentially, it is a technical committee that defines the ECMAScript language. There are 55 committees overall. There are several different categories of participants in these committees such as companies and universities that implement the features proposed as well as subject matter experts and community representatives. Nicolo then goes on to discuss how implementing these new features works. However, I won’t delve into it too much as the focal interest of this event is to discuss the new features coming to JavaScript.
+         </p>
+         <p>
+            At around 13 minutes into the lecture, Nicolo begins to discuss new standards being introduced into ES2024. The first feature is Unicode related utilities. This means that it will check if your string has any lone surrogates and returns a boolean value based on if this condition is true or false. To oversimplify, a lone surrogate is a 16-bit code unit that is in the range of specific UTF code points, and either the next or previous code unit is not a trailing or leading surrogate.
+         </p>
+         <p>
+            Another feature Nicolo discusses deals with raw memory and multi-threading as well as a convenient method for objects or maps called groupBy. This method is very fascinating as it allows you to group arrays by a certain category. This is extremely useful because it used to have to be done much more by hand, for example the filter function comes into mind as to how I would approach the same functionality as groupBy. However, groupBy is easier for specific use cases. For example, Nicolo has an array of objects, each object has a name and a country. With the groupBy method, you can specify the way to group the objects by one of the properties as the second argument. In the example he does groupBy on the country property. So what returns is an object with two separate arrays, one for Italy and one for Germany. This function is useful for specific use cases when it comes to providing a specific view of a list.
+         </p>
+         <p>
+            Some of the other noteworthy features discussed in this lecture from Nicolo are the changes being made to the date constructor, set methods, import attributes and JSON imports, module declarations, decimals, and message formats. Out of these, I am most interested in the date constructor changes. This is because the date constructor is annoying to work with sometimes, specifically when it comes to trying to format it to your desire. For example, if you do the getMonth method, months start from zero instead of 1, so you must do getMonth() + 1. The changes coming will help to make the date constructor more useable and easier to work with.
+         </p>
+         <p>
+            Overall, this conference has shown me things to look forward to that are coming to JavaScript. I regularly use JavaScript myself as I am a software developer, so this lecture I was particularly passionate about. The one that stuck out to me the most was the groupBy method, as it is a large quality of life improvement to save lines of code spent prior to the methods existence trying to achieve the same outcome.
+         </p>
+         <a href="https://www.youtube.com/watch?v=tKHdASf_OOI">View Event</a>
       </main>
    )
 }

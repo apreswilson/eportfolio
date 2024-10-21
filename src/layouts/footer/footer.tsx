@@ -1,9 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./footer.scss";
 import { faHandshake } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
+
+   const navigate = useNavigate();
+
    return (
       <footer>
          <div className="grid-section name-details">
@@ -13,10 +17,10 @@ export default function Footer() {
          <div className="grid-section pages">
             <h1>About Me</h1>
             <ul>
-               <li>Home</li>
-               <li>Resume</li>
-               <li>Artifacts</li>
-               <li>Contact</li>
+               <li onClick={() => navigate("/")}>Home</li>
+               <li><a href="https://drive.google.com/file/d/1YfTX3Kr3tJVIO1BV4UiDRIT2UwBeL1UT/view?usp=sharing">Resume</a></li>
+               <li onClick={() => navigate("/artifacts")}>Artifacts</li>
+               <li onClick={() => navigate("/")}>Contact</li>
             </ul>
          </div>
          <div className="grid-section socials">

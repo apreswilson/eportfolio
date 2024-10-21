@@ -19,9 +19,11 @@ export default function Navbar() {
                <FontAwesomeIcon icon={faHouse} />
                <p>Home</p>
             </li>
-            <li onClick={() => navigate("/")}>
-               <FontAwesomeIcon icon={faFile} />
-               <p>Resume</p>
+            <li>
+               <a href="https://drive.google.com/file/d/1YfTX3Kr3tJVIO1BV4UiDRIT2UwBeL1UT/view?usp=sharing">
+                  <FontAwesomeIcon icon={faFile} />
+                  <p>Resume</p>
+               </a>
             </li>
             <li onClick={() => navigate("/artifacts")}>
                <FontAwesomeIcon icon={faClipboardList} />

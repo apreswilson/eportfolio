@@ -26,6 +26,7 @@ nav {
       display: none;
    }
 
+
    ul {
       margin: 0;
       gap: global.$extra-large-gap;
@@ -34,7 +35,8 @@ nav {
       display: flex;
       @extend %transition;
 
-      li {
+      li,
+      li>a {
          padding: global.$small-gap;
          display: flex;
          align-items: center;
@@ -43,11 +45,23 @@ nav {
          @extend %transition;
       }
 
-      li>p {
+      li>p,
+      li>a>p {
          margin: 0;
       }
 
-      li:hover {
+      li>a {
+         text-decoration: none;
+         color: global.$default-black;
+      }
+
+      li>a:visited {
+         text-decoration: none;
+         color: global.$default-black;
+      }
+
+      li:hover,
+      li>a:hover {
          color: global.$default-blue;
       }
    }
