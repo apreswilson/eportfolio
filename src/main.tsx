@@ -5,6 +5,7 @@ import PageLayout from './layouts/page/page-layout.tsx';
 import App from './App.tsx';
 import './index.scss';
 import Artifacts from './pages/artifacts/artifacts.tsx';
+import Contact from './pages/contact/contact.tsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,14 @@ const router = createBrowserRouter([
     element: (
       <PageLayout>
         <Artifacts />
+      </PageLayout>
+    )
+  },
+  {
+    path: "/contact",
+    element: (
+      <PageLayout>
+        <Contact />
       </PageLayout>
     )
   }

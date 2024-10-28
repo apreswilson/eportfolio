@@ -3,7 +3,17 @@ import styles from "./artifacts.module.scss";
 export default function Artifacts() {
    return (
       <main className={styles.artifacts_main}>
-         <h1>Career Aspirations Essay</h1>
+         <h1>Quick Navigation</h1>
+         <ul id="quicknav" className={styles.quicknav}>
+            <li><a href="#career-aspirations">Career Aspirations</a></li>
+            <li><a href="#project-management-plan">Project Management Plan</a></li>
+            <li><a href="#event-report-1">Event Report</a></li>
+            <li><a href="#ethical-case-study">Ethical Case Study</a></li>
+            <li><a href="#information-policy-in-news">Information Policy/Technology In News</a></li>
+            <li><a href="#event-report-2">Event Report 2</a></li>
+            <li><a href="#program-review">Program Review</a></li>
+         </ul>
+         <h1 id="career-aspirations">Career Aspirations Essay</h1>
          <p>
             My major area of study is information science with a concentration in web development. This major is relevant to my career aspiration. My career aspiration is to become a software developer of some kind. This can be either a front-end developer or a full stack developer. I am not too particular on which one, as I enjoy both the front-end side and full stack side of the development process of web applications. This is the role I envision myself working in in my upcoming future career. The origins of how I became passionate about web development goes back to when I was in 7th grade. I took my first web design class, and I knew by taking that class I was going to do that for a career. It was a fascinating thing to make a website purely by hand and I really enjoyed the creative process that went into it as well.
          </p>
@@ -22,7 +32,8 @@ export default function Artifacts() {
          <p>
             My plans towards progressing towards my career are to continue to work on my software development projects, and research job requirements for a lot of companies so I can tailor what I am learning about to hirable skills. For instance, I will be doing more research into SQL and relational database structuring as my own current experience is document-based NoSQL databases. Additionally, I will be working on my first full stack application to improve my skills and become hirable as a full stack developer instead of just a front-end developer.
          </p>
-         <h1>Project Management Plan</h1>
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
+         <h1 id="project-management-plan">Project Management Plan</h1>
          <p>
             This essay will cover the specific implementation plan of a software-tracking database for a college. This database will be used and maintained by the IT department of the institution. There are six steps that will be the guiding principles for the implementation plan. In start to finish order they are the initiation phase, definition phase, design phase, development phase, implementation phase, and follow-up phase. Basic information about each software must be available such as the type, the developer, different versions, the types of licensing agreements, what departments use it, the computers in the departments on which the software is installed, and the installation dates. The stakeholders in this scenario are the IT department of the college, as well as those who will use it that are outside of the IT department for various reasons.
          </p>
@@ -48,8 +59,8 @@ export default function Artifacts() {
          <p>
             In conclusion, the database implementation plan is divided into six steps, with each section laid out in specific detail as to the process of creating the database. This originates all the way from it just being an idea, to the follow-up process after the database has been developed. Since the database itself is quite simple in its architecture and actual process, it is versatile to more nuanced and specific details that this implementation plan potentially overlooks.
          </p>
-
-         <h1>Event Report</h1>
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
+         <h1 id="event-report-1">Event Report</h1>
          <p>
             For this event report, I watched a JSConf lecture. JSConf is an organization that hosts conferences around the world for the sole purpose of talking about JavaScript. There are currently 18 locations that JSConf is hosted. This specific conference was held in Budapest. The main speaker is a man named Kilian Valkhof, who has over 20 years of experience in making web applications. I attended this conference via YouTube on October 1, 2024. The duration of the lecture is 33 minutes and 50 seconds. The main point of the lecture is to discuss the ways developers can go about doing something they would normally perform in JavaScript, but instead doing it in CSS and HTML.
          </p>
@@ -68,10 +79,10 @@ export default function Artifacts() {
          <p>
             This JSConf event was quite insightful in teaching ways to utilize the power of raw HTML, CSS, and the browser to do things that many would think could only be done in JavaScript. The methods discussed in the lecture will help save tons of time for specific feature implementations to be made to my web applications. Overall, I found this lecture to be very educational and give me a new perspective on trying to see if it is possible to implement a feature in raw HTML and CSS before going straight to JavaScript.
          </p>
-         <p>
-            <a href="https://www.youtube.com/watch?v=IP_rtWEMR0o">View Event</a>
-         </p>
-         <h1>Ethical Case Study Analysis</h1>
+         <a href="https://www.youtube.com/watch?v=IP_rtWEMR0o">View Event</a>
+         <br />
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
+         <h1 id="ethical-case-study">Ethical Case Study Analysis</h1>
          <p>
             The Internet of Things (IoT) are electronic devices that can connect to the Internet in some way. These devices can range from apple watches to speakers. Often associated with the label of “smart” technology. The IoT continues to grow increasingly ubiquitous as developments are made in the field of technology very regularly. Additionally, companies seek to capitalize on making as many IoT related products as possible. Millions of households across the US have various IoT devices that are incorporated into their daily life. Is this entirely a good thing though? For example, having more things tracking data relating to you means that hackers can obtain more information on you if you are a victim of a cybercrime. The following essay will address some valid concerns that come with having a wide range of IoT devices in your home, and possibly provide a new perspective to consider when choosing to increase the quantity of IoT devices incorporated into your daily life.
          </p>
@@ -87,7 +98,8 @@ export default function Artifacts() {
          <p>
             In conclusion, the degree of IoT you choose to have in your home is determined by your tolerance for things such as potential surveillance, and increased avenues of being attacked. However, when thought about critically, and considering the recommendations discussed in this essay, these potential concerns can be mitigated. It is ideal to have a foundational understanding of your preferences and boundaries of IoT’s involvement in your life as the number of devices that are created continue to grow, and the number of homes that contain them also increase.
          </p>
-         <h1>Information Policy/Technology in the News</h1>
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
+         <h1 id="information-policy-in-news">Information Policy/Technology in the News</h1>
          <p>
             The information policy topic this essay will be covering is ACM’s statement regarding responsible algorithmic systems. For better understanding, algorithmic systems usually are something built with an artificial intelligence (AI) foundation underneath it. For example, a Tesla’s self-driving mode would be considered an algorithmic system as it uses AI in its decision-making process. The statement covers how organizations making these types of systems place high emphasis on setting up protocol for how decisions by the system are made, considering things such as the rights of individuals. I believe that ACM hits the nail on the head in that algorithmic systems need to consider certain things that humans consider when decision making. Otherwise, it can lead to a public outrage against algorithmic systems being integrated into the public, as they will claim that they do not think that the systems do not make decisions in a morally correct manner.
          </p>
@@ -103,7 +115,8 @@ export default function Artifacts() {
          <p>
             Algorithmic systems and AI have been on a monstrous rise in popularity across the recent years, however this does come with some drawbacks. For one, it has been difficult for adequate legislation to be passed to establish guidelines or principles for developers of these systems to adhere to. However, there are solutions that are on the horizon, and a growing number of guidelines from reputable sources and official legislation is being passed around the country to help address the issue presented by algorithmic systems being potentially irresponsible in their decision making. As time continues, a greater number of resources and guidelines will be put in place either through literature or legality for developers to follow when it comes to making responsible algorithmic systems that make moral and logical decisions.
          </p>
-         <h1>Event Report 2</h1>
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
+         <h1 id="event-report-2">Event Report 2</h1>
          <p>
             For this event report, I once again decided to attend a JSConf event. This one is discussing what new features are coming to JavaScript. The speaker is Nicolo Ribaudo, an employee at Igalia and TC39 delegate, created the Babel compiler and has worked on several proposals made to JavaScript in the past. This conference was held in Budapest from June 26th – 28th 2024. This essay will go over summarizing the different features that could be coming to JavaScript discussed by Nicolo.
          </p>
@@ -123,6 +136,22 @@ export default function Artifacts() {
             Overall, this conference has shown me things to look forward to that are coming to JavaScript. I regularly use JavaScript myself as I am a software developer, so this lecture I was particularly passionate about. The one that stuck out to me the most was the groupBy method, as it is a large quality of life improvement to save lines of code spent prior to the methods existence trying to achieve the same outcome.
          </p>
          <a href="https://www.youtube.com/watch?v=tKHdASf_OOI">View Event</a>
+         <br />
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
+         <h1 id="program-review">Program Review</h1>
+         <p>
+            For this assignment I will be discussing upper-level courses that I have completed or am currently completing and their relevance to my future career aspirations. The list of courses that will be discussed in this essay include LIS 3261 Intro to Information Science, LIS 3353 IT Concepts/Info Professionals, LIS 4414 Information Policy and Ethics, LIS 4204 Information Behaviors, LIS 4934 BSIS Senior Capstone, LIS 3361 WWW Page Design/Management, LIS 4482 Networks & Communication, LIS 3352 Interaction Design, LIS 3783 Information Architecture.
+         </p>
+         <p>
+            Starting with LIS 3261 Intro to Information Science, this class helped me establish a foundation for what information science is and how it applies to the real world. This helped me to better understand the framework of information science and apply it to my software development process. LIS 3353 IT Concepts/Info Professionals was another foundational class that covers things such as programming basics, networks, the Internet, and emerging technologies. I found this class useful as it taught me terminology that I still use to this day. LIS 4414 Information Policy and Ethics discusses issues related to cybersecurity and technology development as used in the world today. This class was great because I was unaware how much consideration must be put into policy when it comes to working among organizations. LIS 4402 Information Behaviors was a class that explained the way people behave when it comes to seeking, consuming, and applying information in their lives. I found this class helpful as it helped me to analyze my own approach to my behaviors regarding information seeking and adjust them to a more well thought out approach.
+         </p>
+         <p>
+            LIS 4934 BSIS Senior Capstone has been a great class so far as I have gotten to perform research projects and essays related to my career. This is great because it is nice to have a class that allows you to tailor your research and writing assignments to exactly what you are looking for in a career. LIS 3361 WWW Page Design/Management was a class that covered the basics of making and deploying a website to the web via an FTP program FileZilla. This class was a nice refresher on HTML/CSS, and I gained a better understanding of FTP. LIS 4482 Networks & Communication is a class that covers things such as the TCP/IP Protocol Suite. This class has been great in informing me about network architecture and how things are transferred across the network. LIS 3352 Interaction Design was a class that focused on the importance of user experience when it comes to designing products. This class has been useful for helping me to consider the things that go into making effective UI/UX when it comes to making web applications. Finally, LIS 3783 Information Architecture teaches you the importance of the way information is structured on things such as websites. This has been great in helping me consider the general architecture I want to use when it comes to making website pages.
+         </p>
+         <p>
+            This assignment I was able to cover my higher-level courses that I think have helped me a lot. From each of these classes, I have gained new experiences and knowledge that will shape how I approach my career going forward. They have also helped me build a foundational knowledge that will allow me to have a strong start as I enter the workforce as a college graduate.
+         </p>
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
       </main>
    )
 }

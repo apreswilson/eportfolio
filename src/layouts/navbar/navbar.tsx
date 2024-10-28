@@ -29,7 +29,7 @@ export default function Navbar() {
                <FontAwesomeIcon icon={faClipboardList} />
                <p>Artifacts</p>
             </li>
-            <li onClick={() => navigate("/")}>
+            <li onClick={() => navigate("/contact")}>
                <FontAwesomeIcon icon={faEnvelope} />
                <p>Contact</p>
             </li>

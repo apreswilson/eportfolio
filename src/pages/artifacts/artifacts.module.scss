@@ -5,6 +5,27 @@
       text-decoration: underline;
    }
 
+   .quicknav {
+      display: flex;
+      flex-direction: column;
+      gap: global.$normal-gap;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      &>li>a {
+         text-decoration: none;
+         color: global.$default-blue;
+      }
+   }
+
+   .back_to_top,
+   a {
+      text-decoration: none;
+      margin: 3rem 0;
+      color: global.$default-blue;
+   }
+
    p {
       text-indent: 2rem;
       line-height: 2rem;
