@@ -12,6 +12,8 @@ export default function Artifacts() {
             <li><a href="#information-policy-in-news">Information Policy/Technology In News</a></li>
             <li><a href="#event-report-2">Event Report 2</a></li>
             <li><a href="#program-review">Program Review</a></li>
+            <li><a href="#program-review-2">Program Review 2</a></li>
+            <li><a href="#reflection-essay">Reflection Essay</a></li>
          </ul>
          <h1 id="career-aspirations">Career Aspirations Essay</h1>
          <p>
@@ -152,6 +154,39 @@ export default function Artifacts() {
             This assignment I was able to cover my higher-level courses that I think have helped me a lot. From each of these classes, I have gained new experiences and knowledge that will shape how I approach my career going forward. They have also helped me build a foundational knowledge that will allow me to have a strong start as I enter the workforce as a college graduate.
          </p>
          <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
+         <h1 id="program-review-2">Program Review 2</h1>
+         <p>
+            This essay will discuss three assignments that I have completed, one of those I’m still actively working on, and their importance to me and my future career aspiration as a software developer. The first assignment is the website that I am currently working on for my senior capstone class LIS 4934. The second assignment is a semester long assignment for my web design and management class LIS 3361. The third assignment is from job search SLS 3308, in which I made a final draft of my resume.
+         </p>
+         <p>
+            First, let’s discuss the senior capstone assignment that I am still currently working on. It is a semester long project in which we are required to make an e-portfolio and deploy it to the web for others to view. The e-portfolio is our own website which includes things such as information about us, assignments completed throughout the semester, contact information, and our resume for others to view. We slowly add artifacts to it each week throughout the semester. This project I find important because it allows me to gain additional practice what I plan to do for a full-time job as an actual assignment. I coded my portfolio by hand so it encourages me to gain a better understanding of various technologies I will work with regularly in my career.
+         </p>
+         <p>
+            My second assignment I found important to me is my web design and management classes semester long website assignment. It is very similar to the e-portfolio assignment, however the actual content on the website was different. It included various things that were more related to layout rather than actual content on it. For example, we had to incorporate an Iframe somewhere on the page, an image map, and other things that I was unfamiliar with when it came to web development. This assignment was important because it introduced me to new concepts that I had not worked with yet when it came to web development. This is why I found the assignment important, as I gained experience with new concepts and ideas related to HTML that I had not yet worked with.
+         </p>
+         <p>
+            My third assignment that I want to discuss is my final resume for my job search class. The assignment had an initial rough draft, and then we received feedback and applied it to our final assignment. My initial assignment had a good score, but there was much to improve on. The professor highlighted things that I needed to adjust in my resume, such as actin bullet points, and overall layout of my resume. This assignment I found very useful as it allows me to have a more professionally formatted resume to submit to companies seeking employees.
+         </p>
+         <p>
+            In conclusion, these three assignments were very impactful on me, and I found them applicable to my future career aspirations. However, there are even more assignments that I found useful regarding learning about various new topics, even if they weren’t quite as applicable to my future career. For example, I did an assignment related to active defense of companies that I found very interesting, and it was very insightful. Regardless, the three assignments discussed in this essay stuck out to me as the most important in relation to my career aspirations above other ones that I have completed. The skills gained in them will serve me well in my career down the road.
+         </p>
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
+         <h1 id="reflection-essay">Reflection Essay</h1>
+         <p>
+            The duration of my studies in the realm of information sciences has helped me grow as an individual in various forms that will benefit me for the duration of my career. Various courses such as information behaviors, website design and management, information architecture, local area networks and concepts, and more have helped me establish a foundational knowledge of the subject field that I will apply to my practice of being a software developer.
+         </p>
+         <p>
+            Coursework across various courses relating to information science has helped me gain an understanding of the various areas across the field. For example, classes like information architecture have helped me shape the way I would go about making websites so that the navigability, design, and architecture of the website promotes a nice user experience overall. Another example that is more personal is information behaviors taught me how people interact with information, and the general behaviors they carry out when seeking it. This helped me in performing a meta-analysis on the way I seek information and consider ways to improve it. A third would be local area network concepts, which has helped me greatly in terms of learning about various internet protocols within the TCP/IP protocol suite. Overall, the courses and various assignments that I have completed in the information science program at USF have helped me prepare for work in my career field by providing me with various foundational knowledge that I will need to work as a software developer.
+         </p>
+         <p>
+            There are many aspects of the program that I enjoyed, and a small amount that I disliked. Addressing the dislike first, I wish there were more programming related classes. However, the degree I pursued was information science and not computer science since the concentration for web development is fell under information science only. Some more overlap with courses offered in the computer science program would have been beneficial for me personally, such as the data structures and algorithms course. Moving on to things that I like about the information science program, I did enjoy the various classes that forced me to analyze the flow of information on a website, and how to construct it to have a highly optimized layout to improve the overall user experience. I also enjoyed the meta-analysis aspects of classes such as information behaviors, interaction design, and others that helped me to analyze my own thinking patterns internally and help me improve myself and how I interact with and process information.
+         </p>
+         <p>
+            As of now, I do not currently plan to pursue additional education regarding the field of information science. In general, the field of software development is only seeking a bachelor’s degree. Very few are requiring a higher degree of education. Regarding suggestions for the program, I would consider implementing more programming related classes into web development such as ones discussed previously, or just moving the web development concentration into the computer science program rather than information science.
+         </p>
+         <p>
+            Overall, I have thoroughly enjoyed my time in the information science program at USF. The courses have helped me develop a foundational knowledge across various aspects of the field that I will carry with me for the remainder of my career. While there are some things that I would change about the web development concentration specifically, I do think that this does not detract from the valuable education I gained during my time in the information science program.
+         </p>
       </main>
    )
 }
