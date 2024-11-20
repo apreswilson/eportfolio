@@ -8,7 +8,7 @@ export default function App() {
         <div className="left-column">
           <h1>Hello,</h1>
           <h1>
-            My name is Alex Wilson. I am a passionate Software Developer aimed towards creating
+            My name is Alex Wilson. I am a passionate software developer aimed towards creating
             responsive and user friendly web applications.
           </h1>
         </div>

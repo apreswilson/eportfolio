@@ -1,0 +1,61 @@
+@use "../../index.scss" as global;
+
+.contact_main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: global.$extra-large-gap;
+
+   h1:nth-child(2) {
+      width: 75%;
+      text-align: left;
+   }
+
+   .form {
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+      gap: global.$extra-large-gap;
+
+      textarea,
+      input {
+         border: global.$default-border;
+         font-family: global.$default-font-family;
+         outline: none;
+         font-size: 20px;
+         padding: global.$normal-gap;
+         @extend %transition;
+      }
+
+      textarea:focus,
+      input:focus {
+         border: 1px solid global.$default-blue;
+      }
+
+      textarea {
+         resize: none;
+         display: block;
+         box-sizing: border-box;
+         width: calc(100% - 2px) !important;
+         min-height: 10rem;
+         margin: 0;
+      }
+
+      button {
+         padding: global.$normal-gap;
+         background-color: global.$default-blue;
+         color: global.$default-white;
+         border: 0;
+         width: 10rem;
+         border-radius: global.$default-border-radius;
+         font-size: global.$large-font-size;
+         @extend %transition;
+         cursor: pointer;
+      }
+
+      button:hover {
+         opacity: 0.8;
+      }
+   }
+}
