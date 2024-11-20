@@ -187,6 +187,7 @@ export default function Artifacts() {
          <p>
             Overall, I have thoroughly enjoyed my time in the information science program at USF. The courses have helped me develop a foundational knowledge across various aspects of the field that I will carry with me for the remainder of my career. While there are some things that I would change about the web development concentration specifically, I do think that this does not detract from the valuable education I gained during my time in the information science program.
          </p>
+         <a href="#quicknav" className={styles.back_to_top}>Back to top</a>
       </main>
    )
 }
